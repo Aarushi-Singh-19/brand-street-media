@@ -691,3 +691,139 @@ nav ul li a:hover{
 html{
     scroll-behavior: smooth;
 }
+
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px){
+
+    nav{
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .logo img{
+        width: 110px;
+    }
+
+    nav ul{
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li a{
+        font-size: 12px;
+    }
+
+    .home-section,
+    .about-section,
+    .services-section,
+    .clients-section,
+    .process-section,
+    .why-section,
+    .contact-section{
+        padding: 80px 22px;
+        min-height: auto;
+    }
+
+    .main-heading{
+        font-size: 58px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+
+    .tagline{
+        margin-left: 0;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .side-line{
+        font-size: 14px;
+    }
+
+    .about-section,
+    .services-section,
+    .process-layout{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-left h2,
+    .services-heading,
+    .clients-heading,
+    .process-heading,
+    .why-heading,
+    .contact-heading{
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .about-right{
+        padding: 28px;
+    }
+
+    .about-right p,
+    .services-text,
+    .clients-text,
+    .process-content p,
+    .why-box p,
+    .contact-text{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .services-left{
+        position: static;
+    }
+
+    .service-box{
+        padding: 25px;
+        gap: 18px;
+    }
+
+    .service-box span{
+        font-size: 28px;
+        min-width: 45px;
+    }
+
+    .service-box h3,
+    .why-box h3{
+        font-size: 24px;
+    }
+
+    .clients-grid,
+    .why-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .logo-box{
+        height: 130px;
+    }
+
+    .process-display{
+        padding: 30px;
+        min-height: auto;
+    }
+
+    .process-content h3{
+        font-size: 32px;
+    }
+
+    .process-tab{
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-card{
+        padding: 28px;
+    }
+}
